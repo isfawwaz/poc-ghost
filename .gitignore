@@ -81,7 +81,6 @@ b-cov
 results
 
 package-lock.json
-bower_components
 .bowerrc
 projectFilesBackup
 
@@ -98,14 +97,14 @@ projectFilesBackup
 
 /core/server/data/export/exported*
 /content/tmp/*
-/content/data/*
+!/content/data/*
 /content/logs/*
-/content/settings/*
-/content/apps/**/*
-/content/themes/**/*
-/content/images/**/*
-/content/adapters/storage/**/*
-/content/adapters/scheduling/**/*
+!/content/settings/*
+!/content/apps/**/*
+!/content/themes/**/*
+!/content/images/**/*
+!/content/adapters/storage/**/*
+!/content/adapters/scheduling/**/*
 !/content/themes/casper
 !/README.md
 !/content/**/README.md
